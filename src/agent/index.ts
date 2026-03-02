@@ -7,11 +7,8 @@ import type {
   AgentState,
   AgentTool,
   Message,
-  AssistantMessage,
   AgentContext,
   ThinkingLevel,
-  ToolContext,
-  StreamOptions,
 } from "../types/index.js";
 import { EventBus } from "../events/index.js";
 import { StateManager } from "../utils/state-manager.js";

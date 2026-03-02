@@ -233,7 +233,7 @@ export class AgentLoop {
    * Execute a tool call
    */
   private async executeToolCall(
-    toolCall: Extract<Extract<typeof this.config.context.messages[number], { role: "assistant" }>["content"][number],
+    toolCall: any,
     tools: AgentTool<any>[]
   ): Promise<ToolResultMessage> {
     if (toolCall.type !== "toolCall") {

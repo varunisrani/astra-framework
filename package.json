@@ -91,6 +91,9 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "bin": {
+    "astra": "./dist/cli/cli.js"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.17.5",
     "@opentelemetry/api": "^1.9.0",
@@ -101,6 +104,7 @@
     "ajv": "^8.17.1",
     "chalk": "^5.5.0",
     "cli-highlight": "^2.1.11",
+    "commander": "^12.1.0",
     "diff": "^8.0.2",
     "glob": "^11.0.3",
     "marked": "^15.0.12",
