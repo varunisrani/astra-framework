@@ -38,13 +38,13 @@
       "types": "./dist/memory/index.d.ts",
       "import": "./dist/memory/index.js"
     },
-    "./mcp": {
-      "types": "./dist/mcp/index.d.ts",
-      "import": "./dist/mcp/index.js"
-    },
     "./workflows": {
       "types": "./dist/workflows/index.d.ts",
       "import": "./dist/workflows/index.js"
+    },
+    "./mcp": {
+      "types": "./dist/mcp/index.d.ts",
+      "import": "./dist/mcp/index.js"
     },
     "./evals": {
       "types": "./dist/evals/index.d.ts",
